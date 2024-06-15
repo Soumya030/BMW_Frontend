@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+#ved-sec {
+    position: relative;
+    width: 100%;
+    height: 104vh;
+    overflow: hidden;
+    /* opacity: 0.9; */
+}
+#img {
+    position: relative;
+    width: 100%;
+    height: 74vh;
+    overflow: hidden;
+    /* opacity: 0.9; */
+}
+#img-sec {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* opacity: 0.9; */
+}
+
+#ved {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#nav-w {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+}
+.nav-content{
+    text-decoration: none;
+    color: white;
+}
+
+#max {
+    border-bottom: 2px solid white;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.rio {
+    display: flex;
+    align-items: center;
+}
+
+#rio1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+}
+
+#rio2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+}
+
+.lio {
+    height: 73px;
+    width: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    transition: border-bottom 0.3s;
+}
+.lio-call {
+    height: 55px;
+    width: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lio:hover {
+    border-bottom: 3px solid blue;
+}
+
+#liosap {
+    width: 70px;
+    height: 72px;
+}
+.sheer{
+    position: relative;
+    padding-top: 88px;
+    padding-left: 90px;
+    color: white;
+    font-size: large;
+}
+
+.FIRST-EVER{
+    position: relative;
+    padding-top: 223px;
+    padding-left: 90px;
+    color: white;
+    font-size: large;
+}
+.nev4 {
+    position: relative;
+    z-index: 1;
+    padding-top: 12px;
+    padding-left: 90px;
+    font-size: xx-large;
+    color: white;
+    font-size: large;
+}
+.nev4-section2{
+    position: relative;
+    z-index: 1;
+    padding-top: 12px;
+    padding-left: 90px;
+    font-size: 70px;
+    color: white;
+}
+
+.styled-i {
+    font-family: 'Raleway';
+}
+.styled-5 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* .callhead{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+} */
+.call {
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 550px; 
+    right: 55px; 
+    z-index: 1000; 
+}
+
+.call:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+.call:hover .lio-call {
+    color: white; 
+}
+
+.nev4 p {
+    font-size: 213px; 
+    line-height: 40px;
+    padding-top: 68px;
+    height: 170px;
+    display: inline-block;
+    text-align: center;
+    margin: 0; 
+}
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+  }
+.nev5 {
+    border: 1px solid #1c69d4;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    background-color: #1c69d4;
+    position: relative;
+    margin-left: 90px; 
+    margin-top: 12px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.nev5 a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.nev5-sec {
+    border: 2px solid white;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    margin-left: 90px; 
+    margin-top: 12px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.nev5-sec a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+/* .nev5-sec:hover {
+    background-color:#1655ad; 
+} */
+.nev5:hover {
+    background-color:#1655ad; 
+}
+
+.title__text{
+    font-size: 25px;
+
+}
+.title__text1{
+    font-size: 35px;
+
+}
+.nev4-section4-1{
+    position: relative;
+    z-index: 1;
+    padding-top: 180px;
+    padding-left: 90px;
+    font-size: 50px;
+    color: white;
+}
+.nev4-section4-2{
+    position: relative;
+    z-index: 1;
+    /* padding-top: 200px; */
+    padding-left: 90px;
+    font-size: 50px;
+    color: white;
+}
+.sec3-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.25rem;
+    letter-spacing: 2px;
+    color: rgb(117, 116, 116);
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec3-head-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.25rem;
+    letter-spacing: 2px;
+    color: rgb(66, 65, 65);
+    padding-top: 35px;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec3-head-2{
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    margin-left: 120px;
+    height: 280px;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sec3-headimg {
+    /* border: 2px solid black; */
+    padding: 10px; /* Add padding inside the container */
+    display: inline-block; /* Ensure the border fits around the content */
+    align-items: center;
+    padding: 80px;
+    height: 50vh;
+
+}
+
+.secimg{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin-top: 40px;
+}
+.imglogo{
+    width:100px;
+    height:100px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 53px;
+}
+.newcar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.knowmore {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 3px;
+    height: 50px;
+    width: 220px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.knowmore a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+.knowmore a:hover {
+    color: rgb(129, 128, 128); 
+}
+.info{
+    /* border: 1px solid black; */
+    height: 367px;
+    width: 652px;
+    margin-left: 90px;
+    margin-bottom: 58px;
+}
+.info-right{
+    /* border: 1px solid black; */
+    height: 367px;
+    width: 652px;
+    margin-left: -15px;
+    margin-bottom: 58px;
+    position: relative;
+}
+.info-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flexknowmore{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: rgb(66, 65, 65);
+    letter-spacing: 2px;
+    padding-top: 80px;
+}
+.flexknowmore1{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 65, 65);
+
+}
+.flexknowmore2{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 65, 65);
+
+}
+.flexknowmore3{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(66, 65, 65);
+
+}
+.flexknowmore4{
+    border: 2px solid grey;
+    border-radius: 3px;
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    margin-top: 24px;
+    z-index: 1;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer;
+}
+.flexknowmore4 a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+.footer-head{
+    border-top: 1px solid black;
+    background-color: white;
+    height: 85px;
+    display: flex;
+    position: relative;
+}
+.footer-body{
+    /* border: 1px solid black; */
+    background-color: rgb(245, 244, 244);
+    height: 400px;
+    display: flex;
+    position: relative;
+}
+.footer{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 70px;
+    display: flex;
+    position: relative;
+}
+.sec7-head-2{
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    margin-left: 77px;
+    height: 280px;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.sec7-headimg {
+    /* border: 2px solid black; */
+    padding: 10px; /* Add padding inside the container */
+    display: inline-block; /* Ensure the border fits around the content */
+    align-items: center;
+    padding: 80px;
+    height: 50vh;
+
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .875rem;
+    font-family: 'Arial', 'Helvetica', 'Roboto', 'sans-serif';
+    color: #262626;
+    margin-top: 13px;
+}
+
+.foot-content {
+    width: 200px;
+    text-align: left;
+    cursor: pointer;
+}
+.foot-content-head {
+    width: 200px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .700rem;
+}
+.lio--foot{
+    /* border: 1px solid black; */
+    height: 73px;
+    width: 144px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    transition: border-bottom 0.3s;
+    margin-left: 1px;
+}
+.rio--footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -260px;
+}
+.rio--footer-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -670px;
+}
+.lio-footermedia {
+    height: 73px;
+    width: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    transition: border-bottom 0.3s;
+    padding-top: 126px;
+    cursor: pointer;
+}
+.rio--footer-right {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -600px;
+}
+.rio--footer-right-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0;
+}
+.rio--footer-right-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0;
+}
+#rio1-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+}
+.lio--foot-right{
+    border: 1px solid black;
+    height: 73px;
+    width: 164px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    transition: border-bottom 0.3s;
+    margin-left: 1px;
+}
+
+
